@@ -1,0 +1,25 @@
+<html>
+<head>
+<script language="javascript">
+function isupp()
+{
+var val=element = document.getElementById("str").value;
+var c=val.charCodeAt(0);
+if(c>=65 && c<=90)
+{
+	confirm(" First Character is Uppercase");
+}
+else
+{
+	confirm(" First Character is not Uppercase");
+}
+}
+</script>
+</head>
+<body>
+<form>
+<input type="text" id="str" name="str">
+<input type="button" value="Is Upper" onclick="isupp()">
+</form>
+</body>
+</html>
