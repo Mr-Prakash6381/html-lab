@@ -1,0 +1,24 @@
+<html>
+<head>
+<script language="javascript">
+function isoddoreven()
+{
+	for(var i=0;i<15;i++)
+	{
+		var v=prompt("Enter the value");
+		if(v%2==0)
+			confirm("Given number is even");
+		else
+			confirm("Given number is odd");
+	}
+	
+}
+</script>
+</head>
+<body>
+<form>
+ODD OR EVEN
+<input type="button" value="ODD or EVEN" onclick="isoddoreven()">
+</form>
+</body>
+</html>
