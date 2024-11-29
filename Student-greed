@@ -1,0 +1,48 @@
+<html>
+<head>
+<script language="javascript">
+function grade()
+{
+	var maths=Number(document.getElementById("maths").value);
+	var lang=Number(document.getElementById("lang").value);
+	var eng=Number(document.getElementById("eng").value);
+	var sci=Number(document.getElementById("sci").value);
+	var evs=Number(document.getElementById("evs").value);
+	var total=maths+lang+eng+sci+evs;
+	var avg=total/5;
+	if(avg>=90)
+		confirm("Grade is O");
+	else if(avg<90 && avg >= 75)
+		confirm("Grade is A");
+	
+	else if(avg<75 && avg >= 60)
+		confirm("Grade is B");
+	else if(avg<60 && avg >= 40)
+		confirm("Grade is C");
+	else
+		confirm("RE-APPEAR");
+	
+}
+</script>
+</head>
+<body>
+<form>
+MATHS MARK: 
+<input type="text" id="maths" >
+<br>
+LANG MARK: 
+<input type="text" id="lang" >
+<br>
+ENG MARK: 
+<input type="text" id="eng" >
+<br>
+SCIENCE MARK: 
+<input type="text" id="sci" >
+<br>
+EVS MARK: 
+<input type="text" id="evs" >
+<br>
+<input type="button" value="Grade me" onclick="grade()">
+</form>
+</body>
+</html>
