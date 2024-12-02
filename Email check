@@ -1,0 +1,27 @@
+<html>
+<head>
+<script language="javascript">
+function validemail()
+{
+var mail=document.getElementById("email").value;
+const temp =/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+if (temp.test(mail))
+{
+alert("You have entered a valid email address!")
+}
+else
+{
+alert("You have entered an invalid email address!")
+}
+}
+</script>
+</head>
+<body>
+<form>
+Email:
+<input type="text" id="email" >
+<br>
+<input type="button" value="Grade me" onclick="validemail()">
+</form>
+</body>
+</html>
