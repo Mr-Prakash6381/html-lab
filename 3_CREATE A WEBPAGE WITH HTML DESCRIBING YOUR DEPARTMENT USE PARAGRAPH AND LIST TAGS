@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>About Department</title>
+</head>
+<body>
+<center><h1> Department of Computer Science</h1></center>
+<h3> About the Department</h3>
+<b> Programmes Offered</b>
+<ul type="circle">
+<li>B.Sc Computer Science</li>
+<li>B.Sc Computer Science with Specialization in AI & ML</li>
+<li>B.Sc Computer Science with Specialization in Cybersecurity</li>
+<li>M.Sc Computer Science</li>
+<li>Ph.D Computer Science</li>
+</ul>
+<br><br>
+<b>VISION</b>
+<p>Aims to provide quality education in the field of Computer Science with state of art facilities and handle quality research in association with industry and other Universities to produce well trained IT professionals to cater the need of society.
+</p>
+<br>
+<br>
+<b>MISSION</b>
+<ol type="i">
+<li>To Provide knowledge through teaching and training in the field of Computer Science.</li>
+<li>To concentrate on teaching-learning, research, project and consultancy help to increase the growth of IT and IT Enabled Services.</li>
+<li>To train students to get best opportunities and tackle challenges in IT industry. </li>
+<li>To equip students with communication skill, Leadership quality, ability to work with team help to improve the society.</li>
+<li>To provide value based and technical oriented related students help to build the nation.</li>
+</body>
+</html>
