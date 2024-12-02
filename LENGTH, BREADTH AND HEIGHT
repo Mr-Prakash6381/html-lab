@@ -1,0 +1,28 @@
+<html>
+<head>
+<script language="javascript">
+function cal()
+{
+var l=Number(document.getElementById("length").value);
+var b=Number(document.getElementById("breadth").value);
+var h=Number(document.getElementById("height").value);
+var avg=2*l*b+2*b*h+2*l*h;
+confirm("Surface area is"+avg);
+}
+</script>
+</head>
+<body>
+<form>
+Length:
+<input type="text" id="length" >
+<br>
+Breadth:
+<input type="text" id="breadth" >
+<br>
+Height:
+<input type="text" id="height" >
+<br>
+<input type="button" value=" Calculate" onclick="cal()">
+</form>
+</body>
+</html>
