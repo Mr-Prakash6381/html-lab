@@ -1,0 +1,37 @@
+<frameset cols="20%,60%,20%">
+<frame name="left" src="left.html"/>
+<frame name="center" src="main.html"/>
+<frame name="right" src="right.html"/>
+</frameset>
+left.html
+<html>
+<body>
+<ol><b>Contents</b>
+<li>Unit 1: HTML</li>
+<li>UNIT II: VB SCRIPT</li>
+<li>UNIT III: JAVA SCRIPT</li>
+<li>UNIT IV: PERL</li>
+<li>UNIT V: CGI</li>
+</ol>
+</body>
+</html>
+main.html
+<HTML>
+<BODY>
+<b>
+HTML INTRODUCTION</b>
+<br>
+HTML - HYPERTEXT MARKUP LANGUAGE<br>
+Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.
+<br>It defines the content and structure of web content.
+<br>It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+</body>
+</html>
+right.html
+<html>
+<body>
+<b>REMARKS</b>
+<br>
+THIS page gives the remark of the main page
+</body>
+</html>
